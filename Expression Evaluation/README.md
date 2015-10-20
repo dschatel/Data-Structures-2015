@@ -1,4 +1,5 @@
-Expression.java String expression evaluator
+Expression.java <br/>
+String expression evaluator
 
 This program reads a string input in the form of an algebraic expression with +, -, * and / operators and evaluates the expression. The expression may contain variables in the form of scalar (single value) or array (multiple values, associated with array indices). Expressions may have any number of nested parentheses and array brackets and they may also have any number of spaces or tabs between tokens.
 
@@ -22,18 +23,12 @@ This method evaluates the String by parsing and evaluating each subexpression (i
 
 Examples of valid input:
 
-Enter the expression, or hit return to quit => (a + A[a*2-b]) 
-
-Expression legally matched: true 
-
-Enter symbol values file name, or hit return if no symbols => etest1.txt 
-
+Enter the expression, or hit return to quit => (a + A[a*2-b]) <br/>
+Expression legally matched: true <br/>
+Enter symbol values file name, or hit return if no symbols => etest1.txt <br/>
 Value of expression = 8.0
 
-Enter the expression, or hit return to quit => a - (b+A[B[2]])*d + 3 
-
-Expression legally matched: true 
-
-Enter symbol values file name, or hit return if no symbols => etest1.txt 
-
+Enter the expression, or hit return to quit => a - (b+A[B[2]])*d + 3 <br/>
+Expression legally matched: true <br/>
+Enter symbol values file name, or hit return if no symbols => etest1.txt <br/>
 Value of expression = -106.0
