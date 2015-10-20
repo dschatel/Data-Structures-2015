@@ -23,11 +23,17 @@ This method evaluates the String by parsing and evaluating each subexpression (i
 Examples of valid input:
 
 Enter the expression, or hit return to quit => (a + A[a*2-b]) 
+
 Expression legally matched: true 
+
 Enter symbol values file name, or hit return if no symbols => etest1.txt 
+
 Value of expression = 8.0
 
 Enter the expression, or hit return to quit => a - (b+A[B[2]])*d + 3 
+
 Expression legally matched: true 
+
 Enter symbol values file name, or hit return if no symbols => etest1.txt 
+
 Value of expression = -106.0
