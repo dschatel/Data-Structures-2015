@@ -2,7 +2,7 @@ Polynomial.java
 
 This program reads a Polynomial from a text file (written in a specified format), converts the polynomial into a linked list containing term Objects holding values for degree and coefficient, then allows the user to perform operations on the polynomials.
 
-Parts of the program I was responsible for coding:
+I coded the following three required methods as well as all private methods:
 
 1) add
 
