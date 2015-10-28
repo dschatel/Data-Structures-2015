@@ -7,7 +7,7 @@ Input Assumptions:
 
 a) No unary operators, only +, -, * and /. b) If a variable is used in an expression, then that variable will have a corresponding value in the accompanying text file.
 
-I was responsible for coding the following methods:
+I coded the following three methods as well as all private methods:
 
 1) isLegallyMatched:
 
