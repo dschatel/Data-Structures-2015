@@ -32,3 +32,7 @@ Enter the expression, or hit return to quit => a - (b+A[B[2]])*d + 3 <br/>
 Expression legally matched: true <br/>
 Enter symbol values file name, or hit return if no symbols => etest1.txt <br/>
 Value of expression = -106.0
+
+TO DO:
+
+Rewrite evaluation parsing algorithm to handle cases where subexpressions evaluate to negative numbers.
